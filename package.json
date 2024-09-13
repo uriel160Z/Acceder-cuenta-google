@@ -1,15 +1,21 @@
 {
   "name": "mi-proyecto-web",
   "version": "1.0.0",
-  "description": "Un servidor Express para mi web donde se guardan las ubicaciones de los usuarios",
+  "description": "Un proyecto web para registrar ubicaciones de usuarios.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "express",
+    "geolocalización",
     "ubicaciones"
   ],
-  "author": "cuenta google",
-  "license": "ISC"
+  "author": "Uriel Arreguin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.1"
+  }
 }
