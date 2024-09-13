@@ -1,0 +1,15 @@
+{
+  "name": "mi-proyecto-web",
+  "version": "1.0.0",
+  "description": "Un servidor Express para mi web donde se guardan las ubicaciones de los usuarios",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ubicaciones"
+  ],
+  "author": "cuenta google",
+  "license": "ISC"
+}
